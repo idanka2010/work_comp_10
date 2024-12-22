@@ -1,0 +1,31 @@
+﻿@page "/signup"
+
+<h3>הרשמה</h3>
+
+<div class="signup-page">
+    <label for="signUpEmail">אימייל</label>
+    <input type="email" id="signUpEmail" @bind="signUpEmail" class="form-control" />
+</div>
+
+<div>
+    <label for="signUpPassword">סיסמא</label>
+    <input type="password" id="signUpPassword" @bind="signUpPassword" class="form-control" />
+</div>
+
+<button class="btn btn-success" @onclick="HandleSignUp">הירשם</button>
+
+@if (isSignUpSuccess)
+{
+    <p class="text-success">נרשמת בהצלחה!</p>
+}
+
+@code {
+    private string signUpEmail = string.Empty;
+    private string signUpPassword = string.Empty;
+    private bool isSignUpSuccess = false;
+
+    private void HandleSignUp()
+    {
+        isSignUpSuccess = true;
+    }
+}

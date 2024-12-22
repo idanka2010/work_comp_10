@@ -1,0 +1,15 @@
+﻿@code {
+    protected override Task OnInitializedAsync()
+    {
+        return base.OnInitializedAsync();
+    }
+}
+
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" />
+    </Found>
+    <NotFound>
+        <p>לא נמצא דף כזה</p>
+    </NotFound>
+</Router>

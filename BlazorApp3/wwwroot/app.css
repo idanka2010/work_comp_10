@@ -1,0 +1,176 @@
+﻿/* עיצוב כללי */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* דף הבית  */
+.home-page {
+    background-image: url('empty-wooden-table-with-a-beautiful-grocery-store-background-featuring-aisles-of-colorful-products-ideal-for-food-marketing-and-promotions-photo.jpeg'); /* Replace with your desired home background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+  
+    text-align: center;
+    min-height: 100vh; 
+}
+
+    .home-page h1 {
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .home-page p {
+        font-size: 1.7em;
+        margin-bottom: 30px;
+        color:white;
+    }
+
+    .home-page .btn {
+        width: 200px;
+        margin: 10px;
+        font-size: 1.1em;
+        padding: 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .home-page .btn-primary {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+    }
+
+        .home-page .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .home-page .btn-success {
+        background-color: #28a745;
+        color: white;
+        border: none;
+    }
+
+        .home-page .btn-success:hover {
+            background-color: #218838;
+        }
+
+
+/* דף התחברות - Login Page */
+.login-page {
+    background-image: url('images.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 60px 20px;
+    max-width: 450px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+    .login-page h3 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        font-style:revert;
+    }
+
+    .login-page label {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .login-page input {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 1.1em;
+    }
+
+    .login-page button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .login-page button:hover {
+            background-color: #0056b3;
+        }
+
+/* דף הרשמה */
+.signup-page {
+    background-image: url('images.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 60px 20px;
+    max-width: 450px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+    .signup-page h3 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .signup-page label {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .signup-page input {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 1.1em;
+    }
+
+    .signup-page button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .signup-page button:hover {
+            background-color: #218838;
+        }
+
+/* עיצוב להודעות הצלחה */
+.text-success {
+    font-size: 1.2em;
+    color: #28a745;
+    margin-top: 20px;
+}
